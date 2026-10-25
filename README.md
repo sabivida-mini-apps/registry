@@ -50,4 +50,4 @@ The SabiVida team updates this file when an app is listed, suspended or removed,
 
 Partners are invited and reviewed. To ask, open a [partner application](../../issues/new?template=apply.yml) with your organisation's name and the service you have in mind, and nothing confidential. The team replies with a private channel.
 
-To build one, see the [partner kit](https://github.com/sabivida-mini-apps/partner-kit) and start from [first-app](https://github.com/sabivida-mini-apps/first-app).
+To build one, see the [partner kit](https://github.com/sabivida-mini-apps/partner-kit) and start from a [template](https://github.com/sabivida-mini-apps/partner-kit#quick-start) in your stack (React, Next.js, Vue, Solid or plain JavaScript).
