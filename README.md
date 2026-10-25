@@ -1,3 +1,5 @@
+<p><img src="https://raw.githubusercontent.com/sabivida-mini-apps/.github/main/assets/social-registry.png" alt="SabiVida partner registry: the public list of genuine SabiVida partner apps." width="100%"></p>
+
 # SabiVida partner registry
 
 The public list of partner apps that SabiVida has reviewed and opened to its members. A mini app runs inside SabiVida, so anyone could claim to be one. This list lets members, partners and journalists check the claim.
