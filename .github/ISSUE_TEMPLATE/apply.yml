@@ -1,0 +1,35 @@
+name: Partner application
+description: Ask to offer your service to SabiVida members as a mini app.
+title: 'Partner application: '
+labels: [partner]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is **public**. Share only what is below: no contracts, contact details, prices or anything confidential. The SabiVida team replies with a private channel.
+  - type: input
+    id: organisation
+    attributes:
+      label: Organisation
+      description: Your organisation's public name.
+    validations:
+      required: true
+  - type: textarea
+    id: service
+    attributes:
+      label: The service you want to offer
+      description: One or two sentences. What does it help a family do?
+    validations:
+      required: true
+  - type: input
+    id: reach
+    attributes:
+      label: Who it serves
+      description: Countries, islands or diaspora communities.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options: [paperwork, money, travel, community, work, learning, health]
+    validations:
+      required: true

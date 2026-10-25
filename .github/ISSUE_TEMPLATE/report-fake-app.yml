@@ -1,0 +1,27 @@
+name: Report a fake partner app
+description: Something claims to be a SabiVida partner app but isn't on this list, or its host doesn't match.
+title: 'Fake app: '
+labels: [impersonation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Don't post your own personal details, passwords or codes here. If you entered them into a fake app, change them on sabivida.com first.
+  - type: input
+    id: name
+    attributes:
+      label: Name the app used
+    validations:
+      required: true
+  - type: input
+    id: address
+    attributes:
+      label: Address or host you saw
+      description: For example the host in SabiVida's bar, or the link you were sent.
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where you found it
+      description: A message, a website, a QR code on a poster, a social network.

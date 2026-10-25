@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/sabivida-mini-apps/partner-kit/security/advisories/new
+    about: Report vulnerabilities privately, never in a public issue.
